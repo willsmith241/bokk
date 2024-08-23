@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="{% static 'assets/css/about.css' %}">
+</head>
+<body>
+    <div class="profile-container">
+        <header class="header">
+            <h1>John Doe</h1>
+            <p>Web Developer & Designer</p>
+        </header>
+        <section class="profile-picture">
+            <img src="profile-pic.jpg" alt="John Doe">
+        </section>
+        <section class="bio">
+            <h2>About Me</h2>
+            <p>Hello! I’m John, a passionate web developer with a knack for creating vibrant and dynamic websites. I love coding and design, and I'm always looking for new challenges to tackle.</p>
+        </section>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <ul>
+                <li>Email: john.doe@example.com</li>
+                <li>LinkedIn: linkedin.com/in/johndoe</li>
+                <li>GitHub: github.com/johndoe</li>
+            </ul>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 John Doe. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/johndoe" target="_blank" class="social-icon">
+                    <img src="linkedin-logo.svg" alt="LinkedIn">
+                </a>
+                <a href="https://www.facebook.com/johndoe" target="_blank" class="social-icon">
+                    <img src="facebook-logo.svg" alt="Facebook">
+                </a>
+                <a href="https://twitter.com/johndoe" target="_blank" class="social-icon">
+                    <img src="twitter-logo.svg" alt="Twitter">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
